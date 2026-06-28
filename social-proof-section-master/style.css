@@ -1,0 +1,171 @@
+
+.heading{
+    font-size: 2.5rem;
+    font-family:League spartan;
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    
+}
+
+.paragraph{
+    font-size: 15px;
+    font-family:League spartan;
+    font-weight: 400;
+    color:hsl(300, 43%, 32%);f
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:right;
+    width: 30%;
+    margin-left: 50px;
+    
+}
+
+.ratings{
+    font-family:League spartan;
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    display:flex;
+    flex-direction:column;
+    margin-left:100px;
+    width: 50%;
+}
+
+.rating_1 p, .rating_2 p, .rating_3 p{
+    margin:0;
+    padding:0;
+}
+
+.rating_1{
+    
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-direction:row;
+    margin-top:80px;
+    margin-bottom:20px;
+    background-color:hsl(300, 24%, 96%);
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    
+
+}
+
+.rating_2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-direction:row;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom:20px;
+    margin-left:40px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.rating_3{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-direction:row;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom:20px;
+    margin-left:80px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    background-image:url('images/bg-pattern-top-desktop.svg');
+}
+
+.bottom{
+    align-items:center;
+    width: 100%;
+    background-image:url('images/bg-pattern-bottom-desktop.svg');
+
+}
+
+.testimonials{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.profile_pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonial_1{
+    font-family:League spartan;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:hsl(300, 43%, 22%);
+    margin-right:10px;
+    margin-left:100;
+    margin-bottom:50px;
+    
+}
+
+.testimonial_2{
+    font-family:League spartan;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:hsl(300, 43%, 22%);
+    margin-right:10px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom:50px;
+    
+}
+
+.testimonial_3{
+    font-family:League spartan;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:hsl(300, 43%, 22%);
+    margin-right:50;
+    margin-top:60px;
+    margin-left:10px;
+    margin-bottom:50px;
+    
+
+}
+
+.names{
+    color:hsl(0, 0%, 100%);
+}
+
+.quote{
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-family:League spartan;
+    font-weight: 400;
+}
+
+.verified{
+    color:hsl(333, 80%, 67%)
+}
